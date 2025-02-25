@@ -5,7 +5,6 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Home from './Home';
 import Details from './Details';
-
 export default function Router() {
     const Stack = createStackNavigator();
   return (
